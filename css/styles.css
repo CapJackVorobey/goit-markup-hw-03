@@ -30,14 +30,19 @@ img {
 }
 
 .container {
-  max-width: 1158px;
+  width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+  display: flex;
 }
 
 .top {
   border-bottom: 1px solid #e7e9fc;
+}
+
+.top_navigation {
   display: flex;
+  align-items: center;
 }
 
 .top_navigation_logo {
@@ -48,6 +53,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
 .top_navigation_logo_part {
@@ -57,6 +63,8 @@ img {
 .top_navigation_list {
   display: flex;
   align-items: center;
+  gap: 40px;
+  margin-right: 0;
 }
 
 .top_navigation_item_stirring,
@@ -78,15 +86,20 @@ img {
   color: #404bbf;
 }
 
-.addr {
+.connexion {
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-left: 332px;
+}
+
+.connexion_piece {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-}
-
-.addrs {
-  font-style: normal;
+  margin-right: 0;
 }
 
 .piece {
