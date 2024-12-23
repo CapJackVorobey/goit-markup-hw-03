@@ -30,14 +30,14 @@ img {
 }
 
 .container {
-  display: flex;
-  width: 1158px;
+  max-width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
 }
 
 .top {
   border-bottom: 1px solid #e7e9fc;
+  display: flex;
 }
 
 .top_navigation_logo {
@@ -59,6 +59,7 @@ img {
   align-items: center;
 }
 
+.top_navigation_item_stirring,
 .top_navigation_item {
   font-weight: 500;
   font-size: 16px;
@@ -67,22 +68,25 @@ img {
   color: #2e2f42;
 }
 
-.top_navigation_piece:hover,
-.top_navigation_piece:focus,
+.top_navigation_item:hover,
+.top_navigation_item:focus,
+.top_navigation_item_stirring:hover,
+.top_navigation_item_stirring:focus,
+.top_navigation_item_stirring:active,
 .addr:hover,
 .addr:focus {
   color: #404bbf;
 }
 
-.communication {
-  font-style: normal;
-}
-
-.communication_link {
+.addr {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.addrs {
+  font-style: normal;
 }
 
 .piece {
