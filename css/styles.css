@@ -43,6 +43,7 @@ img {
 .top_navigation {
   display: flex;
   align-items: center;
+  padding: 24px 0;
 }
 
 .top_navigation_logo {
@@ -81,20 +82,21 @@ img {
 .top_navigation_item_stirring:hover,
 .top_navigation_item_stirring:focus,
 .top_navigation_item_stirring:active,
-.addr:hover,
-.addr:focus {
+.top_connexion_piece:hover,
+.top_connexion_piece:focus {
   color: #404bbf;
 }
 
-.connexion {
+.top_connexion {
   font-style: normal;
   display: flex;
   align-items: center;
   gap: 40px;
   margin-left: 332px;
+  padding: 24px 0;
 }
 
-.connexion_piece {
+.top_connexion_piece {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
