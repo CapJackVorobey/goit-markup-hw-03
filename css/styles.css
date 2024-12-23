@@ -31,8 +31,13 @@ img {
 
 .container {
   max-width: 1158px;
-  margin-left: 156px;
-  margin-right: 156px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.top {
+  border-bottom: 1px solid #e7e9fc;
+  display: flex;
 }
 
 .top_logo {
@@ -49,7 +54,12 @@ img {
   color: #2e2f42;
 }
 
-.navigation {
+.navigation_list {
+  display: flex;
+  align-items: center;
+}
+
+.navigation_item {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
