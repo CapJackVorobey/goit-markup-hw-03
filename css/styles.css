@@ -140,11 +140,14 @@ img {
   background-color: #404bbf;
 }
 
-.piece_two_list {
+.piece_two {
   padding: 120px 0;
+}
+
+.piece_two_list {
   display: flex;
   gap: 24px;
-} 
+}
 .piece_two_item {
   width: calc((100% - 72px) / 4);
 }
@@ -167,7 +170,7 @@ img {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02em; 
+  letter-spacing: 0.02em;
   margin-bottom: 8px;
 }
 
