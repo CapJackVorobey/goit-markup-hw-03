@@ -274,6 +274,7 @@ img {
 
 .bottom {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 
 .bottom_logo {
@@ -284,6 +285,8 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .bottom_logo_part {
