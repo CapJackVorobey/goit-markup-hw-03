@@ -197,6 +197,10 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 
+.piece_three_info {
+  padding: 32px 0;
+}
+
 .piece_three_title_one {
   font-weight: 700;
   font-size: 36px;
@@ -216,6 +220,7 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .piece_three_text {
