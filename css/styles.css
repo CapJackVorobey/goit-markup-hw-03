@@ -307,12 +307,3 @@ img {
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
-
-.container_ {
-  display: flex;
-  flex-direction: column;
-}
-
-.con {
-  display: flex;
-}
