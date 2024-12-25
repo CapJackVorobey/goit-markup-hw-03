@@ -246,6 +246,13 @@ img {
   width: calc((100% - 48px) / 3);
 }
 
+.piece_four_info {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
+}
+
 .piece_four_title_one {
   font-weight: 700;
   font-size: 36px;
