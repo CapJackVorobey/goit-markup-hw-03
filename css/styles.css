@@ -133,6 +133,7 @@ img {
   height: 56px;
   border: none;
   border-radius: 4px;
+  display: block;
 }
 
 .piece_button:hover,
