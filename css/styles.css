@@ -29,10 +29,6 @@ img {
   display: block;
 }
 
-.container_ {
-  display: flex;
-}
-
 .container {
   width: 1158px;
   margin: 0 auto;
@@ -41,6 +37,7 @@ img {
 
 .top {
   border-bottom: 1px solid #e7e9fc;
+  display: flex;
 }
 
 .top_navigation {
