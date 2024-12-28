@@ -29,8 +29,17 @@ img {
   display: block;
 }
 
-.container_ {
+.container_one {
   display: flex;
+  align-items: center;
+}
+
+.container_two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
 }
 
 .container {
@@ -80,6 +89,7 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   padding: 24px 0;
+  display: block;
 }
 
 .top_navigation_item:hover,
@@ -92,11 +102,15 @@ img {
   color: #404bbf;
 }
 
+address {
+  margin-left: auto;
+}
+
 .top_connexion {
   font-style: normal;
   align-items: center;
   gap: 40px;
-  margin-left: 332px;
+  margin-left: auto;
   padding: 24px 0;
   display: flex;
 }
@@ -107,6 +121,8 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
   margin-right: 0;
+  padding: 24px 0;
+  display: block;
 }
 
 .piece {
@@ -199,7 +215,6 @@ img {
 .piece_three_group {
   background-color: #fff;
   width: calc((100% - 72px) / 4);
-  border-radius: 0px 0px 4px 4px;
 }
 
 .piece_three_info {
@@ -215,7 +230,6 @@ img {
   text-transform: capitalize;
   color: #2e2f42;
   padding-bottom: 72px;
-  margin-bottom: 72px;
 }
 
 .piece_three_title_two {
@@ -266,7 +280,6 @@ img {
   text-transform: capitalize;
   color: #2e2f42;
   margin-bottom: 72px;
-  padding: 32px 0;
 }
 
 .piece_four_title_two {
@@ -300,7 +313,6 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-bottom: 16px;
-  margin-left: 156px;
 }
 
 .bottom_logo_part {
